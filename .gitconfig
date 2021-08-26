@@ -1,0 +1,20 @@
+[user]
+	name = Kazuki Shigemichi
+	email = shigemichik@gmail.com
+[pull]
+	ff = only
+[merge]
+	ff = false
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	editor = micro
+[commit]
+	verbose = true
+[init]
+	defaultBranch = main
+[pager]
+	log  = diff-highlight | less -RX
+	show = diff-highlight | less -RX
+	diff = diff-highlight | less -RX
