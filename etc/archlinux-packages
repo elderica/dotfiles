@@ -19,3 +19,6 @@ screen
 mpd
 mpc
 ncmpc
+
+mpv
+youtube-dl
