@@ -1,0 +1,12 @@
+host = "127.0.0.1"
+enable-mouse = yes
+visible-bitrate = yes
+set-xterm-title = yes
+#xterm-title-format = "ncmpc: [%name%|[[%artist%|%performer%|%composer%] - ][%title%|%shortfile%]]"
+#lyrics-autosave = no
+lyrics-show-plugin = yes
+text-editor = nvim
+text-editor-ask = yes
+#chat-prefix = "<user> "
+second-column = yes
+enable-colors = yes
