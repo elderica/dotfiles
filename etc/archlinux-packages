@@ -22,3 +22,6 @@ ncmpc
 
 mpv
 youtube-dl
+
+gauche
+rlwrap

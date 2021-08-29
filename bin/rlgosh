@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# https://lemniscus.hatenablog.com/entry/20100701/1277990269
+# CTRL+^: Use an external editor to edit the current input.
+export RLWRAP_EDITOR='micro -filetype lisp'
+rlwrap -c -q '"' -b "'"'(){}[].,#@;|`"' -m gosh "$@"
