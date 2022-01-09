@@ -8,22 +8,22 @@ scrolling:
   history: 50000
 background_opacity: 0.9
 font:
-  size: 18
+  size: 10
 
   normal:
-    family: Source Han Code JP
+    family: PlemolJP Console NF
     style: Regular
 
   bold:
-    family: Source Han Code JP
+    family: PlemolJP Console NF
     style: Bold
 
   italic:
-    family: Source Han Code JP
-  style: Italic
+    family: PlemolJP Console NF
+    style: Italic
 
   bold_italic:
-    family: Source Han Code JP
+    family: PlemolJP Console NF
     style: Bold Italic
 
 shell:
