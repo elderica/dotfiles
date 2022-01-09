@@ -28,31 +28,37 @@ font:
 
 shell:
   program: screen
-# Colors (Blood Moon)
+
+theme: Base16-Default-Dark
 colors:
   # Default colors
   primary:
-    background: '#10100E'
-    foreground: '#C6C6C4'
+    background: '#181818'
+    foreground: '#d8d8d8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#d8d8d8'
+    cursor: '#d8d8d8'
 
   # Normal colors
   normal:
-    black:   '#10100E'
-    red:     '#C40233'
-    green:   '#009F6B'
-    yellow:  '#FFD700'
-    blue:    '#0087BD'
-    magenta: '#9A4EAE'
-    cyan:    '#20B2AA'
-    white:   '#C6C6C4'
+    black: '#181818'
+    red: '#ab4642'
+    green: '#a1b56c'
+    yellow: '#f7ca88'
+    blue: '#7cafc2'
+    magenta: '#ba8baf'
+    cyan: '#86c1b9'
+    white: '#d8d8d8'
 
   # Bright colors
   bright:
-    black:   '#696969'
-    red:     '#FF2400'
-    green:   '#03C03C'
-    yellow:  '#FDFF00'
-    blue:    '#007FFF'
-    magenta: '#FF1493'
-    cyan:    '#00CCCC'
-    white:   '#FFFAFA'
+    black: '#585858'
+    red: '#ab4642'
+    green: '#a1b56c'
+    yellow: '#f7ca88'
+    blue: '#7cafc2'
+    magenta: '#ba8baf'
+    cyan: '#86c1b9'
+    white: '#f8f8f8'
