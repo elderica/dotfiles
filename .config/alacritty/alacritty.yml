@@ -2,7 +2,7 @@
 window:
   dimensions:
     columns: 80
-    lines: 25
+    lines: 35
   dynamic_title: true
 scrolling:
   history: 50000
