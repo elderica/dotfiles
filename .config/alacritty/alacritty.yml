@@ -4,61 +4,56 @@ window:
     columns: 80
     lines: 35
   dynamic_title: true
+  opacity: 0.9
 scrolling:
   history: 50000
-background_opacity: 0.9
 font:
   size: 10
 
   normal:
-    family: PlemolJP Console NF
+    family: PlemolJP35 Console NF
     style: Regular
 
   bold:
-    family: PlemolJP Console NF
+    family: PlemolJP35 Console NF
     style: Bold
 
   italic:
-    family: PlemolJP Console NF
+    family: PlemolJP35 Console NF
     style: Italic
 
   bold_italic:
-    family: PlemolJP Console NF
+    family: PlemolJP35 Console NF
     style: Bold Italic
 
 shell:
   program: screen
 
-theme: Base16-Default-Dark
+theme: Iceberg-Dark
 colors:
   # Default colors
   primary:
-    background: '#181818'
-    foreground: '#d8d8d8'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '#d8d8d8'
-    cursor: '#d8d8d8'
+    background: '#161821'
+    foreground: '#d2d4de'
 
   # Normal colors
   normal:
-    black: '#181818'
-    red: '#ab4642'
-    green: '#a1b56c'
-    yellow: '#f7ca88'
-    blue: '#7cafc2'
-    magenta: '#ba8baf'
-    cyan: '#86c1b9'
-    white: '#d8d8d8'
+    black: '#161821'
+    red: '#e27878'
+    green: '#b4be82'
+    yellow: '#e2a478'
+    blue: '#84a0c6'
+    magenta: '#a093c7'
+    cyan: '#89b8c2'
+    white: '#c6c8d1'
 
   # Bright colors
   bright:
-    black: '#585858'
-    red: '#ab4642'
-    green: '#a1b56c'
-    yellow: '#f7ca88'
-    blue: '#7cafc2'
-    magenta: '#ba8baf'
-    cyan: '#86c1b9'
-    white: '#f8f8f8'
+    black: '#6b7089'
+    red: '#e98989'
+    green: '#c0ca8e'
+    yellow: '#e9b189'
+    blue: '#91acd1'
+    magenta: '#ada0d3'
+    cyan: '#95c4ce'
+    white: '#d2d4de'
