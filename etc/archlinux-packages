@@ -1,10 +1,13 @@
 base-devel
 
 git
+delta
 
 micro
 fish
 pkgfile
+exa
+lsd
 
 source-highlight
 lesspipe
