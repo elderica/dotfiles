@@ -1,7 +1,6 @@
 startup_message off
 escape ^Zz
 shell fish
-term alacritty
 altscreen on
 cjkwidth off
 maptimeout 50
@@ -15,3 +14,7 @@ bind c screen 1
 bind ^c screen 1
 bind 0 select 10
 screen 1
+
+term screen-256color
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'  # ANSI (256-color) patterns - AB: background, AF: foreground
+attrcolor b ".I"                                          # use bright colors for bold text
