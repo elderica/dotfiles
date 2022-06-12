@@ -10,11 +10,19 @@
 [core]
 	autocrlf = input
 	editor = micro
+	quotepath = false
+	pager = delta
 [commit]
 	verbose = true
 [init]
 	defaultBranch = main
-[pager]
-	log  = diff-highlight | less -RX
-	show = diff-highlight | less -RX
-	diff = diff-highlight | less -RX
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	syntax-theme = ansi
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
